@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legend 313 — Bot Panel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@500;700&family=Exo+2:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="pts" id="pts"></div>
+  <div class="scan"></div>
+  <div class="crn tl"></div>
+  <div class="crn tr"></div>
+  <div class="crn bl"></div>
+  <div class="crn br"></div>
+
+  <audio id="snd" loop>
+    <source src="./WhatsApp Audio 2026-05-07 at 8.35.53 PM.mpeg" type="audio/mp4">
+  </audio>
+
+  <div class="wrap">
+    <div class="hdr">
+      <div class="sys-line"><span class="dot"></span>SYSTEM ONLINE</div>
+      <div class="av-wrap">
+        <img
+          src="./WhatsApp Image 2026-05-07 at 8.36.43 PM.jpeg"
+          onerror="this.src='https://i.imgur.com/5RpVgH0.jpeg'"
+          class="av"
+          alt="Legend 313"
+        >
+      </div>
+      <div class="bname">Legend 313</div>
+      <div class="bsub">// WHATSAPP BOT &nbsp;•&nbsp; UGANDA 🇺🇬 //</div>
+    </div>
+
+    <div class="abar" id="audioBar">
+      <div class="aico" id="aico">💿</div>
+      <div class="ainfo">
+        <div class="atitle">Legend 313 — Theme Song</div>
+        <div class="ast" id="ast">CLICK TO PLAY</div>
+      </div>
+      <div class="wvs" id="wvs">
+        <div class="wv"></div><div class="wv"></div><div class="wv"></div><div class="wv"></div><div class="wv"></div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="sv" id="uptime">0m00s</div><div class="sk">Uptime</div></div>
+      <div class="stat"><div class="sv" id="sess">0</div><div class="sk">Linked</div></div>
+      <div class="stat"><div class="sv" id="botst">🟢</div><div class="sk">Bot</div></div>
+    </div>
+
+    <div class="card">
+      <div class="ctitle">⚡ Link WhatsApp Account</div>
+      <div class="field">
+        <label class="lbl" for="ph">Phone Number (with country code)</label>
+        <div class="iw">
+          <span class="iico">📱</span>
+          <input type="tel" id="ph" placeholder="256712345678" maxlength="15">
+        </div>
+      </div>
+      <button class="btn" id="btn" type="button">
+        <span class="bt">⚡ &nbsp; GET PAIRING CODE</span>
+        <div class="sp"></div>
+      </button>
+      <div class="er" id="er"></div>
+      <div class="res" id="res">
+        <div class="clbl">YOUR PAIRING CODE</div>
+        <div class="code" id="code">----</div>
+        <div class="tmr" id="tmr">⏳ Expires in <b id="cd">60</b>s</div>
+        <button class="cpb" id="cpb" type="button">📋 &nbsp; COPY CODE</button>
+        <div class="steps">
+          <div class="step"><div class="sn">1</div><div class="st">Open <b>WhatsApp</b> on your phone</div></div>
+          <div class="step"><div class="sn">2</div><div class="st">Tap <b>⋮ Menu → Linked Devices</b></div></div>
+          <div class="step"><div class="sn">3</div><div class="st">Tap <b>"Link a Device"</b></div></div>
+          <div class="step"><div class="sn">4</div><div class="st">Select <b>"Link with phone number"</b></div></div>
+          <div class="step"><div class="sn">5</div><div class="st">Enter the code above <b>exactly as shown</b></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="ctitle">📋 Bot Commands</div>
+      <div class="cmds">
+        <div class="cmd"><b>.ask</b> — AI chat</div><div class="cmd"><b>.imagine</b> — AI image</div>
+        <div class="cmd"><b>.song</b> — Download audio</div><div class="cmd"><b>.video</b> — Download video</div>
+        <div class="cmd"><b>.play</b> — MP3 file</div><div class="cmd"><b>.tiktok</b> — TikTok DL</div>
+        <div class="cmd"><b>.sticker</b> — Make sticker</div><div class="cmd"><b>.removebg</b> — Remove BG</div>
+        <div class="cmd"><b>.vv</b> — View-once reveal</div><div class="cmd"><b>.translate</b> — Translate</div>
+        <div class="cmd"><b>.trivia</b> — Quiz game</div><div class="cmd"><b>.weather</b> — Live weather</div>
+        <div class="cmd"><b>.meme</b> — Random meme</div><div class="cmd"><b>.tagall</b> — Tag everyone</div>
+        <div class="cmd"><b>.warn</b> — Warn member</div><div class="cmd"><b>.antilink</b> — Block links</div>
+      </div>
+      <div style="text-align:center;margin-top:12px;font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--g)">
+        Type .menu in WhatsApp for full list
+      </div>
+    </div>
+
+    <div class="ft">💀Code With Sohail Afridi💀<br>Team: ❤️???</div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

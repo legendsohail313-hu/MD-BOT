@@ -1,0 +1,18 @@
+{
+  "name": "cursor",
+  "version": "1.0.0",
+  "description": "Cyber Squad 313 panel with backend proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
